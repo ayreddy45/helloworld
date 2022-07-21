@@ -5,8 +5,8 @@
 @FOR %%A IN (%*) DO @IF "%%A"=="nochain" @SET CHAINEDCALL=false
 @FOR %%A IN (%*) DO @IF "%%A"=="Release" @SET MODE=Release
 
-@SET SOLU="helloworld\src\dotnetHelloWorld\dotnetHelloWorld.csproj"
-@SET PROFILE="helloworld\src\dotnetHelloWorld\bin\%MODE%\staging"
+@SET SOLU="\src\dotnetHelloWorld\dotnetHelloWorld.csproj"
+@SET PROFILE="\src\dotnetHelloWorld\bin\%MODE%\staging"
 
   
 @SET MSBUILDDIR=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin
