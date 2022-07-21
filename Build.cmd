@@ -4,8 +4,8 @@
 @FOR %%A IN (%*) DO @IF "%%A"=="Debug" @SET MODE=Debug
 
 REM Provide solution path and sonar key for the service
-@SET SOLU="C:\dotnethelloworld\dotnetHelloWorld.sln"
-@SET SOLUPATH="C:\dotnethelloworld\HelloWorld"
+@SET SOLU="dotnetHelloWorld.sln"
+@SET SOLUPATH="helloworld"
 
 
 @SET MSBUILDDIR=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin
